@@ -3,45 +3,29 @@
  * 配置参数
  */
 app = {
-    name: "奋斗的承诺",
-    basic_url: 'https://fddcn.cn/wp-json/wp/v2/',
+    name: "极客值得买",
+    basic_url: 'https://zdm.io/wp-json/wp/v2/',
     per_page: 20,
     category: [{//侧滑菜单配置项
-      name: 'CSS',
-      catid: 65
+      name: '爆料精选',
+      catid: 2
     }, {
-      name: 'HTML',
-      catid: 59
-    }, {
-      name: 'JS',
-      catid: 182
-    }, {
-      name: "PHP",
-      catid: 98
+      name: '白菜精选',
+      catid: 3
     }],
     nav_bar: [{//底部菜单配置项
     	name: '首页',
     	class: 'mui-icon-home'//没有catid 默认为首页
     },
     {
-    	name: 'JS',
+    	name: '爆料精选',
     	class: 'mui-icon-compose',//图标样式
-    	catid: '182'
+    	catid: '2'
     },
     {
-    	name: 'css',
+    	name: '白菜精选',
     	class: 'mui-icon-email',
-    	catid: 65
-    },
-    {
-    	name: 'php',
-    	class: 'mui-icon-contact',
-    	catid: 98
-    },
-    {
-    	name: '其他',
-    	class: 'mui-icon-gear',
-    	catid: 48
+    	catid: 3
     }]
   }
   /*
